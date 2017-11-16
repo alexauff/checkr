@@ -1,0 +1,180 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+	margin: 0px;
+	padding: 0px
+}
+
+section {
+	padding: 0px 50px;
+}
+
+a {
+	color: white;
+}
+
+
+/******** Section ********/
+#up {
+	background:linear-gradient(0deg,rgba(60, 121, 187, 0.6),rgba(60, 121, 187, 0.6)),url('https://checkr.com/wp-content/uploads/2015/10/checkr_header_industries-1-1200x320.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/******** Header ********/
+/* Haut de page droite */
+#Logo {
+	position:relative;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.text-up {
+	position:relative;
+	display: flex;
+	justify-content: flex-end;
+	margin: 0px 20px 20px 20px;
+	font-family: "proxima-nova",sans-serif;
+}
+
+
+.text-up a {
+	margin: 0px 20px 20px 20px;
+	font-size: 0.8em;
+}
+
+/* Menu */
+.style {
+	display: flex;
+	color: white;
+}
+.menu {
+	position: relative;
+	display: flex;
+	margin-top: 16.5px;
+	margin-left: 25px;
+  font-family: "proxima-nova",sans-serif;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+	/*background: url(https://checkr.com/wp-content/themes/checkr/assets/img/arrow_dropdown.svg)center right/1.11rem 0.89rem no-repeat;*/
+	background-size: 15%;
+	background-position: flex-end;
+
+}
+
+ul li:hover {  /* passage de la souris, typo devient grise */
+	color: grey;
+}
+
+ul li:hover .list1 {  /* boite se déroule */
+	display: block;
+	position: absolute;
+	background-color: grey;
+	font-family: "proxima-nova",sans-serif;
+}
+
+ul li:hover .list2 {
+	display: block;
+	position: absolute;
+	background-color: grey;
+}
+
+ul li:hover .list3 {
+	display: block;
+	position: absolute;
+	background-color: grey;
+}
+
+li ul {
+	display: none;
+	list-style: none;
+  position: absolute;
+}
+
+/* Log in et bouton */
+
+.Log {
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#login {
+	margin-right: 30px;
+}
+
+.get-started a {
+	color: #E9CA2C;
+	letter-spacing: 0.1em;
+	border: 2px solid #E9CA2C;
+	padding: 1.5rem 2.3rem 1.5rem;
+	background: url(https://checkr.com/wp-content/themes/checkr/assets/img/arrow-right_yellow.svg) center center/1.11rem 0.89rem no-repeat;
+	background-position: 90%;
+	font-family: "proxima-nova",sans-serif;
+	margin-right: 30px;
+}
+
+.get-started a:hover{
+	background-color: #E9CA2C;
+  color: #102533;
+}
+
+/******** Start ********/
+.start {
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	margin-left: 2%;
+	margin-top: 100px;
+}
+
+.main-text {
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	line-height: 0.5;
+}
+
+h2 {	
+	color: white;
+	font-family: "DIN Next W01 Bold",sans-serif;
+	font-size: 2em;
+}
+
+p {
+	color: #D0E2EB;
+	font-family: "proxima-nova",sans-serif !important;
+	font-size: 18px;
+}
+
+.explore-now a{
+	padding: 1rem 2rem;
+	margin-left: 25px;
+	background: url(https://checkr.com/wp-content/themes/checkr/assets/img/arrow-right_blue-dark.svg) center center/1.11rem 0.89rem no-repeat;
+	background-position: 90%;
+	font-family: "proxima-nova",sans-serif;
+	background-color: #E9CA2C;
+	color: rgb(49, 75, 104);
+	font-size: 1rem;
+	border-radius: 5px;
+	justify-content: center;
+}
+
+.explore-now {
+		margin-top: 100px;
+}
+
+#video {
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+}
